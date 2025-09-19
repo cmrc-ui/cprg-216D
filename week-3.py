@@ -5,5 +5,9 @@ if type(username) == str:
     print("Welcome,", username)
 else:
     print("Invalid username")
-y_str = str(y)
-print(y_str)
+
+#age calculator
+year = input("Enter year of birth:")
+year = int(year)
+age = 2025 - year
+print("Your age is:", age)
