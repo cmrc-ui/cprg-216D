@@ -3,6 +3,7 @@ numbers_decimal = 32.2
 numbers_float = 3/4
 text = "hello, this is an example of string"
 text1 = 'this is a text'
+text2 = "this is a practice for my Github repository"
 boolean = True
 y = 4.5
 print (numbers)
