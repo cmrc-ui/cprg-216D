@@ -95,3 +95,60 @@ else:
     print("Ticket price would be:", movie_price)
         
 """
+"""
+#Odd Numbers Calculator
+
+input1 = input("Ask for any positive number:")
+input2 = input("Ask for any positive number:")
+input1 = int(input1)
+input2 = int(input2)
+odd = []
+for i in range (input1,input2+1):
+    if i % 2 != 0:
+        odd.append(i)
+
+print("The odd numbers between",input1,"&",input2,"are:",(",".join(odd)))
+"""
+"""
+#Printing all even numbers
+even = []
+for i in range(1,21):
+    if i%2 == 0:
+        even.append(str(i))
+print("The even numbers are:",(" ,".join(even)),end = " ")
+"""
+"""
+#Sum of First Natural N Number
+natural = []
+number = input("Input any number:")
+number =int(number)
+for i in range(1,number+1):
+    natural.append(i)
+
+print(f"The sum of all the numbers between 1 and {number+1}:",sum(natural))
+"""
+#Finding the Largest of Three Numbers
+
+while True:
+    first = input("Input any number:")
+    second = input("Input any number:")
+    third = input("Input any number:")
+    if first or second or third == "exit":
+        print("invalid")
+        break
+first = int(first)
+second = int(second)
+third = int(third)
+if second <= third:
+    
+else first <= second
+
+
+
+
+
+
+
+
+
+
