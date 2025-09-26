@@ -127,6 +127,8 @@ for i in range(1,number+1):
 
 print(f"The sum of all the numbers between 1 and {number+1}:",sum(natural))
 """
+
+"""
 #Finding the Largest of Three Numbers
 
 while True:
@@ -142,8 +144,8 @@ third = int(third)
 if second <= third:
     
 else first <= second
-
-
+not yet done
+"""
 
 
 
