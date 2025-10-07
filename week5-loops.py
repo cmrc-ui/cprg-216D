@@ -85,6 +85,7 @@ elif grade <= 89 and grade >= 80:
 elif grade <= 60:
     print("Failed")
 """
+"""
 number = input("Any number:")
 number = int(number)
 counter = 1
@@ -92,8 +93,32 @@ while counter <= number:
     counter += 1
     print(counter-1)
     
-
-
-
-
+"""
+"""
+#The Assignment
+total = 0
+while True: 
+    GPA = input("Enter the student GPA. Enter -1 to stop entering GPA")
+    if GPA.lower() == "-1":
+        print("Program ends")
+        break
+    GPA = float(GPA)
+    if total 
+"""
+print("Average Checker!")
+while True:
+    instruction = input("Would you like to check average?(y/n)")
+    if instruction.lower() == 'n':
+        print("Program ends")
+        break
+        
+    a = float(input("Enter 1st number: "))
+    b = float(input("Enter 2nd number: "))
+    c = float(input("Enter 3rd number: "))
+    if instruction == 'y':
+        average = float(a+b+c)/3
+        print("The average is: ", average)
+    
+        
+    
     
