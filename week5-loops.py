@@ -99,6 +99,7 @@ while counter <= number:
 total = 0
 while True: 
     GPA = input("Enter the student GPA. Enter -1 to stop entering GPA")
+    student = input("Enter a)
     if GPA.lower() == "-1":
         print("Program ends")
         break
