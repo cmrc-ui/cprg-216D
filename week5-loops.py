@@ -97,7 +97,8 @@ while counter <= number:
 """
 #The Assignment
 total = 0
-while True: 
+print("Welcome to the Grade Registry Program")
+while continue_input == 'y'
     GPA = input("Enter the student GPA. Enter -1 to stop entering GPA")
     student = input("Enter a)
     if GPA.lower() == "-1":
